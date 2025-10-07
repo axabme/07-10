@@ -1,0 +1,9 @@
+#escribo variable pidiendo al usuario que escriba una frase con input
+frase = input("escribe una frase: ")
+#con la funcion split() hago una lista separándola por palabras con espacios " "
+split_frase = frase.split(" ")
+palabras_reversed = reversed(split_frase)
+#con reversed() intercambio la posición de la lista 
+#con .join uno la lista por palabras separada por espacios 
+frase_reversed = ' '.join(palabras_reversed)
+print(frase_reversed)
