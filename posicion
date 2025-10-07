@@ -1,0 +1,14 @@
+#calcular la posición en un solo eje, velocidad y aceleración 
+posición_inicial = float(input("escriba la posición inicial: "))
+velocidad_inicial = float(input("escriba la velocidad inicial: "))
+aceleración = float(input("escriba la aceleración: "))
+t = float(input("escriba el tiempo: "))
+#pedir al usuario inputs: 
+#posición
+#velocidad
+#aceleración 
+x = posición_inicial + velocidad_inicial*t + 0.5 * aceleración * t**2 
+print(f"la posición en t = {t} es de {x} ") 
+
+#input: posición = 1, velocidad = 2, aceleracion = 1
+#output posicion, velocidad final, aceleracion 
